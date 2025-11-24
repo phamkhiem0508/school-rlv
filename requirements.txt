@@ -1,0 +1,9 @@
+numpy
+opencv-python
+keyboard
+pyserial
+pywin32
+Pillow
+scipy
+mss
+

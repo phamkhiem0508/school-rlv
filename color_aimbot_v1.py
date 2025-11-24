@@ -146,10 +146,8 @@ def detect_color():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    global arduino, port
-    port = 'COM5'
-    baudrate = 115200
-    arduino = serial.Serial(port=port, baudrate=baudrate, timeout=.1)
+    global arduino
+    arduino = serial.Serial(port='COM5', baudrate=115200, timeout=.1)
     print("Starting aimbot!!!")
     #time.sleep(5)
     threading.Thread(target=close_script).start()
